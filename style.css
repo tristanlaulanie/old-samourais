@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Marcellus SC', serif;
+}
+
+/* HEADER */
+
+header section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #767474;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.first-header-left-paragraph {
+    position: relative;
+    right: 6em;
+}
+
+header section i {
+    font-size: 1.5em;
+    cursor: pointer;
+    position: relative;
+    left: 1em;
+}
+
+nav {
+    /* border: 2px solid red; */
+    height: 160px;
+}
+
+nav img {
+    height: 80px;
+}
+
+.nav-logo-input {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 1em;
+    padding-left: 3em;
+    margin-top: 1em;
+}
+
+nav input {
+    height: 32px;
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+    padding: 8px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    right: 10em;
+    bottom: 80px;
+    margin-bottom: 2em;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 1em;
+}
+
+#article-li, #price-li {
+    color: red;
+    background-color: black;
+    padding: 8px;
+}
+
+#article-li {
+    position: relative;
+    left: 16px;
+}
+
+#price-li {
+    padding-right: 16px;
+}
+
+.nav-second-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    position: relative;
+    left: 10px;
+}
+
+/* END HEADER */
+
+/* MAIN */
+
+/* FIRST SECTION */
+
+.first-section {
+    height: 500px;
+    /* border: 3px solid plum; */
+    background-color: rgba(128, 128, 128, 0.243);
+}
+
+.label-paragraph {
+    padding: 2em;
+    padding-top: 6em;
+    background-color: #767474;
+    color: white;
+    width: 220px;
+    position: relative;
+    left: 6em;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.label-title-division {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.label-title-division h1 {
+    position: relative;
+    left: 5em;
+    font-size: 2em;
+}
+
+.first-section-subtext {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 3em;
+    color: white;
+}
+
+/* END FIRST SECTION */
+
+/* SECOND SECTION */
+
+.second-section {
+    height: 500px;
+    /* border: 3px solid rgb(114, 6, 238); */
+    margin-top: 3em;
+    margin-bottom: 3em;
+
+}
+
+.second-section h2 {
+    text-align: center;
+    font-size: 1.8em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+
+}
+
+.second-section div img {
+    height: 300px;
+    width: 300px;
+}
+
+.second-section .cards-division {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+}
+
+.cards-division div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* END SECOND SECTION */
+
+/* THIRD SECTION */
+
+.third-section {
+    /* border: 3px solid orange; */
+    display: flex;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+}
+
+.third-section img {
+    height: 280px;
+    width: 440px;
+}
+
+.samourai-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.samourai-img img {
+    border-radius: 8px;
+}
+
+.samourai-img h2 {
+    font-size: 2em;
+    background-color: red;
+    padding: 10px;
+    border-radius: 8px;
+    border: 4px solid black;
+    position: relative;
+    bottom: 4em;
+}
+
+/* END THIRD SECTION */
+
+/* FOOTER */
+
+footer {
+    background-color: #767474;
+    padding: 3em 8em;
+    display: flex;
+    gap: 10em;
+}
+
+footer ul {
+    list-style: none;
+}
+
+.kontakt-list {
+    font-size: 1.4em;
+}
+
+.socials-list {
+    display: flex;
+    gap: 8px;
+}
+
+.socials-list li i {
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    left: 3em;
+}
+
+/* COOKIES */
+
+.cookies {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    opacity: 1;
+}
+
+.cookies-btn{
+    display: flex;
+}
+
+.btn {
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn.btn-success {
+    background-color: #1E2337;
+}
+
+.btn.btn-deny {
+    background-color: grey;
+}
